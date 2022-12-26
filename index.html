@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Tanisha's component Library</h1>
@@ -19,6 +20,7 @@
     <p>Let me show you the normal text.This is free flowing and will wrap at the end
         like a paragraph.
     </p>
+    <p>This para have <strong>bold</strong>text </p>
     <small>This is relatively smaller text</small>
     <hr>
 
@@ -28,32 +30,34 @@
     <!--div is used when we don't have proper semantic tag-->
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page.</div>
+    <div class="fluid-container">This is a fluid container and it will go till the end of the page.</div>
 
     <h3>center container</h3>
-    <div>This is a center container and it will go till the specified width</div>
+    <div class="center-container">This is a center container and it will go till the specified width</div>
     <hr>
 
     <h2>@links</h2>
     <!--a tag,small tag are inline element to diff we use br tag-->
-    <a href="/">Primary Link</a> <br>   
-    <a href="/">Secondary Link</a>
+    <a  class="link primary-link" href="/">Primary Link</a>    
+    <a class="link secondary-link" href="/">Secondary Link</a>
+
    <hr>
 
    <h2>@list</h2>
    <!--There are two types of list ordered list and unordered list-->
     <h3>unoredere list</h3>
-   <ul>
-       <li>item one</li>
-       <li>item two</li>
-       <li>item three</li>
+   <ul class="list-non-bullet">
+       <li class="list-inline">item one</li>
+       <li class="list-inline">item two</li>
+       <li class="list-inline">item three</li>
+       
    </ul>
 
    <h3>ordered list</h3>
    <ol>
-    <li>item one</li>
-    <li>item two</li>
-    <li>item three</i>
+    <li >item one</li>
+    <li >item two</li>
+    <li >item three</i>
      
    </ol>
 

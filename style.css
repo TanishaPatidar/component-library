@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Open+Sans:ital@1&display=swap');
+
+/*this is uesd to set one color for website**/
+:root{
+    --primary-color:rgb(58, 58, 192);
+
+}
+body{
+    font-family: 'Ms Madi', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+hr{
+    margin: 1rem 0rem ;
+}
+
+/**container**/
+
+.fluid-container{
+    padding-left: 1rem;
+    padding-right:1rem ;
+}
+
+.center-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    max-width: 600px;
+}
+/*link**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem  1rem;
+    cursor: pointer;
+}
+
+.primary-link{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    margin:1rem ;
+    
+    color: white;
+}
+.secondary-link{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+/*list*/
+.list-non-bullet{
+    list-style-type:none;
+}
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem
+    /*padding: top-bottom  left-right*/
+    
+}
+
+
