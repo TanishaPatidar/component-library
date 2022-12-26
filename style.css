@@ -2,7 +2,8 @@
 
 /*this is uesd to set one color for website**/
 :root{
-    --primary-color:rgb(58, 58, 192);
+    --primary-color:#3882dd;
+    --dark-grey:#d1d5db;
 
 }
 body{
@@ -53,7 +54,44 @@ hr{
     display: inline;
     padding: 0rem 0.5rem
     /*padding: top-bottom  left-right*/
-    
+
+}
+/*nav*/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.3rem;
+
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* If we are using two classes then provide space b/w two classes*/
+.navigation .link{
+    color: white;
+}
+.navigation .right{
+   text-align: right;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+/*hero*/
+.hero{
+    padding: 1rem;
+}
+.hero .hero-img{
+    /* for center the image */
+    display: block;
+   margin: auto;
+}
+.hero .header-heading{
+ color: var(--dark-grey);
+ text-align: center;
+}
+.hero .heading-highlight{
+    color: var(--primary-color);
 }
 
 
