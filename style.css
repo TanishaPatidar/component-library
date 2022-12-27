@@ -4,6 +4,9 @@
 :root{
     --primary-color:#3882dd;
     --dark-grey:#d1d5db;
+    --off-white:#e4e4e7;
+
+
 
 }
 body{
@@ -92,6 +95,32 @@ hr{
 }
 .hero .heading-highlight{
     color: var(--primary-color);
+}
+.section{
+    padding: 1rem;
+}
+
+.ow{
+    background-color:var(--off-white);
+}
+.section .con{
+   text-align: center;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 0rem  0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.footer .link{
+   
+    color: white;
+}
+.footer ul{
+    /*padding-inline-start: 40px*/
+    /* I copy this while inspect when all footer link are not proper center*/
+    padding-inline-start: 0px;
 }
 
 
